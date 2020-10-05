@@ -7,7 +7,7 @@ type DateContainerProps = {
 }
 
 export const DateContainer = (props: DateContainerProps) => {
-    return (<div className="mt-20 pt-20 content">
+    return (<div className="mt-20 pt-20 ml-0 mr-0 content">
         <div className="ml-0 mr-0 mt-20">
             {props.sessions.movies.map((movie, i) => <MovieContainer key={i} movie={movie}/>)}
         </div>

@@ -8,7 +8,7 @@ type MovieContainerProps = {
 
 export const MovieContainer = (props: MovieContainerProps) => {
     return (
-        <div className="card">
+        <div className="card m-0 mt-20 bg-light-lm">
             <div className="row">
 
                 <div className="col-3 text-center pr-20">
@@ -19,7 +19,7 @@ export const MovieContainer = (props: MovieContainerProps) => {
 
                 </div>
                 <div className="col-9 pl-10 mt-20">
-                    {props.movie.locations.map((location, i) => <LocationContainer location={location} />)}
+                    {props.movie.locations.map((location, i) => <LocationContainer key={i} location={location} />)}
                 </div>
             </div>
         </div>

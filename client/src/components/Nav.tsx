@@ -10,7 +10,7 @@ export const Nav = () => {
     }, []);
 
     return (
-        <nav className="navbar justify-content-between">
+        <nav className="navbar justify-content-between bg-light-lm">
             <span></span>
             <span className="navbar-brand text-center">
                 Adelaide Movie Times

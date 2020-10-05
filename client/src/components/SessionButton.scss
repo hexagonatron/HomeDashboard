@@ -1,19 +1,34 @@
-.tag {
-    border: 1px solid white;
+.dark-mode {
+    // line-height: 32px!important;
 
-    &.crimson{
-        border-color: #780000;
+    & .tag{
+        border-width: 1px;
+    }
+}
+
+.tag {
+    box-sizing: border-box;
+    // border-width: 3px;
+    border-style: solid;
+    // line-height: 26px!important;
+    
+    &.white{
+        border-color: white!important;
+    }
+
+    &.pink{
+        border-color: #e966bd!important;
     }
     
     &.gold{
-        border-color: #cda349;
+        border-color: #cda349!important;
     }
     
     &.green{
-        border-color: #780000;
+        border-color: #2da033!important;
     }
     
-    &.yellow{
-        border-color: #780000;
+    &.crimson{
+        border-color: #990000!important;
     }
 }

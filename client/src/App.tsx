@@ -1,6 +1,5 @@
 import React from 'react';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom'
-import './App.css';
 import 'halfmoon/css/halfmoon-variables.min.css';
 
 import Nav from './components/Nav';
