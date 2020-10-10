@@ -1,0 +1,34 @@
+// .dark-mode {
+//   // line-height: 32px!important;
+// }
+
+.dark-mode.tag {
+  border-width: 1px;
+}
+
+.tag {
+  box-sizing: border-box;
+  // border-width: 3px;
+  border-style: solid;
+  // line-height: 26px!important;
+}
+
+.tag.white {
+  border-color: white !important;
+}
+
+.tag.pink {
+  border-color: #e966bd !important;
+}
+
+.tag.gold {
+  border-color: #cda349 !important;
+}
+
+.tag.green {
+  border-color: #2da033 !important;
+}
+
+.tag.crimson {
+  border-color: #990000 !important;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './NavButtons.scss';
+import './NavButtons.css';
 import { Link, withRouter, RouteComponentProps } from 'react-router-dom';
 import classnames from 'classnames';
 

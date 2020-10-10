@@ -2,7 +2,7 @@ import React from 'react';
 import {SessionObj} from '../types/sessions'
 import moment from 'moment';
 import classNames from 'classnames'
-import './SessionButton.scss';
+import './SessionButton.css';
 
 type SessionButtonProps = {
     session: SessionObj
