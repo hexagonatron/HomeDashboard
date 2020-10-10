@@ -1,0 +1,23 @@
+{
+  "name": "homedashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd server && npm i && npm run build && cd ../client && npm i && npm run build",
+    "dev": "concurrently \"cd client && npm start\" \"cd server && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hexagonatron/HomeDashboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hexagonatron/HomeDashboard/issues"
+  },
+  "homepage": "https://github.com/hexagonatron/HomeDashboard#readme",
+  "devDependencies": {
+    "concurrently": "^5.3.0"
+  }
+}
