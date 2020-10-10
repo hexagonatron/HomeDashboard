@@ -1,16 +1,12 @@
-// .dark-mode {
-//   // line-height: 32px!important;
-// }
-
 .dark-mode.tag {
   border-width: 1px;
 }
 
 .tag {
   box-sizing: border-box;
-  // border-width: 3px;
+  /* // border-width: 3px; */
   border-style: solid;
-  // line-height: 26px!important;
+  /* // line-height: 26px!important; */
 }
 
 .tag.white {
