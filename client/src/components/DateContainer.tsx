@@ -1,9 +1,11 @@
 import React from 'react';
 import { DateObj } from '../types/sessions';
+import { FilterObj } from '../types/filter';
 import MovieContainer from './MovieContainer';
 
 type DateContainerProps = {
-    sessions: DateObj
+    sessions: DateObj,
+    filter: FilterObj
 }
 
 export const DateContainer = (props: DateContainerProps) => {

@@ -20,6 +20,7 @@
     "@types/react-router-dom": "^5.1.5",
     "classnames": "^2.2.6",
     "halfmoon": "^1.1.0",
+    "lodash": "^4.17.20",
     "moment": "^2.29.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -49,6 +50,7 @@
     ]
   },
   "devDependencies": {
-    "@types/classnames": "^2.2.10"
+    "@types/classnames": "^2.2.10",
+    "@types/lodash": "^4.14.162"
   }
 }

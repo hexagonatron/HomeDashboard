@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const {parse} = require('node-html-parser');
 const moment = require('moment');
 require('dotenv').config();
+const { Logger } = require('../../dist/js/helpers/Logger');
 
 const SessionSchema = new mongoose.Schema({
     title: { type: String },
@@ -21,6 +22,7 @@ const Session =  mongoose.model("Session", SessionSchema);
 
 const OMDB_API_KEY = process.env.OMDB_API_KEY;
 
+const logger = new Logger();
 
 //Config Vars
 const HOYTS_CINEMA_IDS = [
@@ -149,7 +151,7 @@ const parsePalaceHTML = async (rawHTML) => {
         let allSessionsForMovie = [...prospectSessionsWithNames, ...eastEndSessionsWithNames];
         
         try{
-            const {imdb_id} = await getImdbInfo(movieTitle);
+            const {imdb_id} = await getOmdbInfo(movieTitle);
             allSessionsForMovie = allSessionsForMovie.map(session => {return {...session, imdb_id}});
         }catch{
             
@@ -197,7 +199,7 @@ const parseHoytsJson = async (json) => {
         }
 
         try{
-            const {imdb_id} = await getImdbInfo(movie.title);
+            const {imdb_id} = await getOmdbInfo(movie.title);
             sessionArray = sessionArray.map(session => {return {...session, imdb_id}});
         }catch{
             
@@ -248,7 +250,7 @@ const parseEventJson = async (jsonArray) => {
         }
 
         try{
-            const {imdb_id} = await getImdbInfo(movie.Name);
+            const {imdb_id} = await getOmdbInfo(movie.Name);
             sessionTimesOfMovie = sessionTimesOfMovie.map(session => {return {...session, imdb_id}});
         }catch{
             
@@ -323,7 +325,7 @@ const parseWallisHTML = async (htmlArray) => {
             }
 
             try{
-                const {imdb_id} = await getImdbInfo(title);
+                const {imdb_id} = await getOmdbInfo(title);
                 movieSessionTimes = movieSessionTimes.map(session => {return {...session, imdb_id}});
             }catch{
                 
@@ -370,16 +372,22 @@ const createDbOperation = (session) => {
     }
 }
 
-const getImdbInfo = async (titleString) => {
+const getOmdbInfo = async (titleString) => {
     const queryString = new URLSearchParams()
     queryString.append("t", titleString);
     queryString.append("apikey", OMDB_API_KEY);
 
     const response = await fetch(`http://www.omdbapi.com/?${queryString}`).then(res => res.json());
 
-    if(response.Error) throw "=(";
+    if(response.Error) throw logger.error(response.Error);
     if(!response.imdbID || !response.Poster) throw "=(";
+    
+    logger.file(`Title: ${titleString}, imdbID: ${response.imdbID}`)
     return {imdb_id: response.imdbID, poster_url: response.Poster};
+}
+
+const getImdbInfo = async (titleString) => {
+    const preparedQueryString = titleString.replace(/[^a-z0-9 ]/gi, "")
 }
 
 const getSessionTimesFromPlaceElArray = (palaceElsArray) => {

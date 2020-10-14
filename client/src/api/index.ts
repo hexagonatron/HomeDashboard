@@ -1,4 +1,4 @@
-import moment, {Moment} from 'moment';
+import {Moment} from 'moment';
 
 export const apiGet = (url: string, headers?: Headers) => {
     return fetch(url, {
@@ -6,6 +6,10 @@ export const apiGet = (url: string, headers?: Headers) => {
         headers: headers
     })
     .then(res => res.json())
+    .then(json => {
+        if(json.error) throw json.error
+        return json
+    })
     .catch(err => console.log(err));
 }
 
