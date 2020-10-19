@@ -30,6 +30,9 @@ export class Logger {
             LogLevel.Error
         ];
         this.logConsoleLevels = options.logConsoleLevels || [
+            LogLevel.Debug,
+            LogLevel.Info,
+            LogLevel.Warn,
             LogLevel.Error
         ];
         this.logToFile = options.logToFile || true;
@@ -52,11 +55,11 @@ export class Logger {
     }
 
     private buildConsoleMessageString(message: string, logLevel: LogLevel) {
-        return `${this.getLogLevelText(logLevel)}: ${message} \n`;
+        return `${this.getLogLevelText(logLevel)}: ${message}`;
     }
 
     private buildFileMessageString(message: string, logLevel: LogLevel) {
-        return `${moment().format()} [${logLevel}]: ${message} \n`;
+        return `${moment().format()} [${logLevel}]: ${message}\n`;
     }
 
     private writeToFile(message: string) {
