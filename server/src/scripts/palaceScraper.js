@@ -285,7 +285,7 @@ const parseWallisHTML = async (htmlArray) => {
             }
         }
 
-        for(movieEl of movieBoxes){
+        for( const movieEl of movieBoxes){
             const title = movieEl.querySelector(".title").text.trim();
 
             const poster_url = movieEl.querySelector("img").getAttribute("src").replace("movie-poster-small","movie-poster-large");
