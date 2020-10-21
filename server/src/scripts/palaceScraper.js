@@ -373,13 +373,16 @@ const processBulkDbOperationArray = (bulkOperationArray) => {
         mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
             Session.bulkWrite(bulkOperationArray).then(res => {
                 mongoose.disconnect();
-                logger.info(`Sucessfully upserted ${res.upsertedCount} records, Matched ${res.matchedCount}, modified ${res.modifiedCount}`);
+                logger.info(`Successfully upserted ${res.upsertedCount} records, Matched ${res.matchedCount}, modified ${res.modifiedCount}`);
                 resolve(res)
             }).catch(err => {
                 mongoose.disconnect();
                 logger.error(err);
                 reject(err);
             });
+        }).catch(err => {
+            logger.error(`Could not connect to MongoDB instance`);
+            logger.error(err);
         })
     })
 

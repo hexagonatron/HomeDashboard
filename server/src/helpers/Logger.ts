@@ -42,15 +42,15 @@ export class Logger {
     private getLogLevelText(logLevel: LogLevel) {
         switch (logLevel) {
             case LogLevel.Debug:
-                return chalk.bgCyan(`[${logLevel}]`);
+                return chalk.black.bgCyan(`[${logLevel}]`);
             case LogLevel.Info:
-                return chalk.bgWhite(`[${logLevel}]`);
+                return chalk.black.bgWhite(`[${logLevel}]`);
             case LogLevel.Warn:
-                return chalk.bgYellow(`[${logLevel}]`);
+                return chalk.black.bgYellow(`[${logLevel}]`);
             case LogLevel.Error:
-                return chalk.bgRed(`[${logLevel}]`);
+                return chalk.black.bgRed(`[${logLevel}]`);
             default:
-                return chalk.bgGreen(`[${logLevel}]`);
+                return chalk.black.bgGreen(`[${logLevel}]`);
         }
     }
 
