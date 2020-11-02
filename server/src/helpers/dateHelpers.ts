@@ -5,7 +5,11 @@ import { invalidDateFormat } from '../constants/errors';
 
 export const validateAndParseQueryDate = (dateQueryParam: string | ParsedQs | string[] | ParsedQs[]) => {
     if (typeof dateQueryParam !== "string") throw invalidDateFormat;
-    const date = moment(dateQueryParam, "DD-MM-YYYY");
+    return momentObjectFromDateString(dateQueryParam);
+}
+
+export const momentObjectFromDateString = (dateString: string) => {
+    const date = moment(dateString, "DD-MM-YYYY");
     if(!date.isValid()) throw invalidDateFormat;
-    return date;
+    return date
 }

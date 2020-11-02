@@ -1,7 +1,7 @@
-import db from '../models';
+import db from '../models/mongo';
 import { invalidDateRange, noSessionsFound } from '../constants/errors';
 import moment, { Moment } from 'moment';
-import { ISession } from '../models/Session';
+import { ISession } from '../models/mongo/Session';
 
 export const findSessions = (fromDate: Moment, toDate: Moment) => {
     if (!fromDate.isBefore(toDate)) throw invalidDateRange;

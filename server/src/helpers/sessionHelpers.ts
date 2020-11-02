@@ -1,5 +1,5 @@
 import moment,{ Moment } from 'moment';
-import { ISession } from '../models/Session';
+import { ISession } from '../models/mongo/Session';
 import {SessionObj, LocationObj, MovieObj, DateObj, SessionResponseJson} from '../types/session';
 
 interface ISessionHash {

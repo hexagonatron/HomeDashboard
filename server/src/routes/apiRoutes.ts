@@ -4,7 +4,7 @@ import express, {} from 'express'
 import { validateAndParseQueryDate } from '../helpers/dateHelpers';
 import { findSessions } from '../controllers/sessionControllers';
 import { formatSessions } from '../helpers/sessionHelpers';
-import { ISession } from '../models/Session';
+import { ISession } from '../models/mongo/Session';
 
 const router = Router();
 
