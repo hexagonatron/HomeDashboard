@@ -1,5 +1,8 @@
-import fetch, {Headers, RequestInit} from 'node-fetch';
+import fetch, { Headers, RequestInit } from 'node-fetch';
 import Logger from '../helpers/Logger';
+import { Parser } from 'htmlparser2';
+import DomHandler, { Node } from 'domhandler';
+
 
 const PALACE_URL = 'https://palacenova.com.au';
 const TOKEN_REGEX = /"_token" value="(.*)"/;
@@ -30,7 +33,7 @@ fetch(PALACE_URL, {
         const xsrfCookieParsed = XSRF_COOKIE_REGEX.exec(cookie);
         const palaceCookieParsed = PALACE_COOKIE_REGEX.exec(cookie);
 
-        if(!(xsrfCookieParsed && palaceCookieParsed)){
+        if (!(xsrfCookieParsed && palaceCookieParsed)) {
             throw "Couldn't find xsrf or palace cookie";
         }
 
@@ -67,10 +70,28 @@ const getPalaceTimes = (token: string, xsrfCookie: string, palaceCookie: string)
         headers: headers,
         body: body,
         redirect: 'follow'
-    }).then(res => res.json()).then(json => {
+    }).then(res => res.json()).then(async json => {
         console.log(json);
+        const html = json.grid;
+        const dom = await constructDom(html);
+        console.log(dom)
     }).catch(err => {
         log.error(err);
     });
 
+}
+
+const constructDom = (rawHTML: string): Promise<Node[]> => {
+    return new Promise((resolve, reject) => {
+        const handler = new DomHandler(function (error, dom) {
+            if (error) {
+                return reject(error);
+            } else {
+                return resolve(dom);
+            }
+        });
+        const parser = new Parser(handler);
+        parser.write(rawHTML);
+        parser.end();
+    })
 }
