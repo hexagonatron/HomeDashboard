@@ -102,16 +102,18 @@ const getWallisHTML = async () => {
 }
 
 const getHoytsMovieTimes = async () => {
-    const startDate = moment().format("MM-DD-YYYY");
 
     const hoytsIdString = HOYTS_CINEMA_IDS.map(id => `cinemaIds=${id}`).join("&");
 
     logger.info(`Getting JSON for ${HOYTS_CINEMA_IDS.length} cinemas.`);
-    const hoytsurl = `https://www.hoyts.com.au/api/movie/all?${hoytsIdString}&numDays=20&retrieveAll=true&startTime=${startDate}`;
 
-    const response = await fetch(hoytsurl).then(res => res.json());
-
-    return response
+    const nextTwoWeekArray = new Array(14).fill(true).map((val, i) => moment().add(i, 'd').format('MM-DD-YYYY'));
+    
+    const hoytsJsonArray = await Promise.all(nextTwoWeekArray.map(dateStr => {
+        const hoytsurl = `https://www.hoyts.com.au/api/movie/tiles?${hoytsIdString}&startTime=${dateStr}`;
+        return fetch(hoytsurl).then(res => res.json());
+    }));
+    return hoytsJsonArray;
 
 }
 
@@ -175,8 +177,8 @@ const parsePalaceHTML = async (rawHTML) => {
 
 const parseHoytsJson = async (json) => {
 
-    const nowShowingContent = json.viewModel[1].contentTabs.tabs.find(tab => tab.slug === "now-showing");
-    const moviesShowing = nowShowingContent.contents[0].filterGrid.tiles;
+    // const nowShowingContent = json.viewModel[1].contentTabs.tabs.find(tab => tab.slug === "now-showing");
+    const moviesShowing = json.flat();
 
     let movieSessionObjectArray = [];
 
