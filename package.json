@@ -19,6 +19,12 @@
   },
   "homepage": "https://github.com/hexagonatron/HomeDashboard#readme",
   "devDependencies": {
-    "concurrently": "^5.3.0"
+    "concurrently": "^5.3.0",
+    "ts-node": "^9.1.1"
+  },
+  "dependencies": {
+    "@mikro-orm/mongo-highlighter": "^1.0.0",
+    "reflect-metadata": "^0.1.13",
+    "tsc-watch": "^4.2.9"
   }
 }

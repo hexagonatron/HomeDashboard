@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="google-site-verification " content="xajRkKaWvKJQi2q5qW_Ed Xw5F9RjupdfUDQXFwTnpfg" />
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-K2QBQG3');</script>
+    <!-- End Google Tag Manager -->
+
+    <title>Adelaide Cinema | Prospect Cinema | Palace Nova | Palace Nova</title>
+    <meta name="title" content="">
+    <meta name="description" content="Experience Palace Nova Cinemas in two exclusive locations. Adelaide’s vibrant Eastend in the City and our newly opened location Prospect Road.">
+        <link rel="icon" href="https://palacenova.com.au/favicon.ico">
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://palacenova.com.au/front-end/css/app.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K2QBQG3"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark py-xl-2">
+    <div class="container">
+        <a class="navbar-brand" href="https://palacenova.com.au">
+                            <img class="big-logo" src="https://palacenova.com.au/images/shared-logo.png" alt="">
+                    </a>
+        <button class="navbar-toggler" type="button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="nav_filmsDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Now Showing <i class="fa fa-angle-down"></i>
+                    </a>
+                    <div class="dropdown-menu can-get-long" aria-labelledby="nav_filmsDropdown">
+                        <a href="https://palacenova.com.au/showing-this-week" class="dropdown-item text-center text-lg-left">ALL THIS WEEK’S SESSIONS</a>
+                        <div class="dropdown-divider"></div>    
+                                                    <a href="https://palacenova.com.au/films/a-call-to-spy" class="dropdown-item text-center text-lg-left">A Call to Spy</a>
+                                                    <a href="https://palacenova.com.au/films/ammonite" class="dropdown-item text-center text-lg-left">Ammonite</a>
+                                                    <a href="https://palacenova.com.au/films/buddy-games" class="dropdown-item text-center text-lg-left">Buddy Games</a>
+                                                    <a href="https://palacenova.com.au/films/corpus-christi" class="dropdown-item text-center text-lg-left">Corpus Christi</a>
+                                                    <a href="https://palacenova.com.au/films/crock-of-gold-a-few-rounds-with-shane-macgowan" class="dropdown-item text-center text-lg-left">Crock of Gold - A Few Rounds with Shane MacGowan</a>
+                                                    <a href="https://palacenova.com.au/films/david-byrnes-american-utopia" class="dropdown-item text-center text-lg-left">David Byrne&#039;s American Utopia</a>
+                                                    <a href="https://palacenova.com.au/films/dragon-rider" class="dropdown-item text-center text-lg-left">Dragon Rider</a>
+                                                    <a href="https://palacenova.com.au/films/dreambuilders" class="dropdown-item text-center text-lg-left">Dreambuilders</a>
+                                                    <a href="https://palacenova.com.au/films/happiest-season" class="dropdown-item text-center text-lg-left">Happiest Season</a>
+                                                    <a href="https://palacenova.com.au/films/how-to-be-a-good-wife" class="dropdown-item text-center text-lg-left">How to Be a Good Wife</a>
+                                                    <a href="https://palacenova.com.au/films/kajillionaire" class="dropdown-item text-center text-lg-left">Kajillionaire</a>
+                                                    <a href="https://palacenova.com.au/films/lupin-the-third-the-first" class="dropdown-item text-center text-lg-left">Lupin the Third: The First</a>
+                                                    <a href="https://palacenova.com.au/films/maya-the-bee-3-the-golden-orb" class="dropdown-item text-center text-lg-left">Maya the Bee 3 - The Golden Orb</a>
+                                                    <a href="https://palacenova.com.au/films/memories-of-murder" class="dropdown-item text-center text-lg-left">Memories of Murder</a>
+                                                    <a href="https://palacenova.com.au/films/misbehaviour" class="dropdown-item text-center text-lg-left">Misbehaviour</a>
+                                                    <a href="https://palacenova.com.au/films/monster-hunter" class="dropdown-item text-center text-lg-left">Monster Hunter</a>
+                                                    <a href="https://palacenova.com.au/films/music" class="dropdown-item text-center text-lg-left">Music</a>
+                                                    <a href="https://palacenova.com.au/films/my-salinger-year" class="dropdown-item text-center text-lg-left">My Salinger Year</a>
+                                                    <a href="https://palacenova.com.au/films/oliver-sacks-his-own-life" class="dropdown-item text-center text-lg-left">Oliver Sacks: His Own Life</a>
+                                                    <a href="https://palacenova.com.au/films/only-the-animals" class="dropdown-item text-center text-lg-left">Only the Animals</a>
+                                                    <a href="https://palacenova.com.au/films/ottolenghi-and-the-cakes-of-versailles" class="dropdown-item text-center text-lg-left">Ottolenghi and the Cakes of Versailles</a>
+                                                    <a href="https://palacenova.com.au/films/penguin-bloom" class="dropdown-item text-center text-lg-left">Penguin Bloom</a>
+                                                    <a href="https://palacenova.com.au/films/promising-young-woman" class="dropdown-item text-center text-lg-left">Promising Young Woman</a>
+                                                    <a href="https://palacenova.com.au/films/rams" class="dropdown-item text-center text-lg-left">Rams</a>
+                                                    <a href="https://palacenova.com.au/films/shadow-in-the-cloud" class="dropdown-item text-center text-lg-left">Shadow in the Cloud</a>
+                                                    <a href="https://palacenova.com.au/films/spread-your-wings" class="dropdown-item text-center text-lg-left">Spread Your Wings</a>
+                                                    <a href="https://palacenova.com.au/films/summerland" class="dropdown-item text-center text-lg-left">Summerland</a>
+                                                    <a href="https://palacenova.com.au/films/superintelligence" class="dropdown-item text-center text-lg-left">Superintelligence</a>
+                                                    <a href="https://palacenova.com.au/films/tenet" class="dropdown-item text-center text-lg-left">Tenet</a>
+                                                    <a href="https://palacenova.com.au/films/the-bee-gees-how-can-you-mend-a-broken-heart" class="dropdown-item text-center text-lg-left">The Bee Gees: How Can You Mend A Broken Heart</a>
+                                                    <a href="https://palacenova.com.au/films/the-croods-a-new-age" class="dropdown-item text-center text-lg-left">The Croods: A New Age</a>
+                                                    <a href="https://palacenova.com.au/films/the-dig" class="dropdown-item text-center text-lg-left">The Dig</a>
+                                                    <a href="https://palacenova.com.au/films/the-dry" class="dropdown-item text-center text-lg-left">The Dry</a>
+                                                    <a href="https://palacenova.com.au/films/the-elfkins-baking-a-difference" class="dropdown-item text-center text-lg-left">The Elfkins: Baking A Difference</a>
+                                                    <a href="https://palacenova.com.au/films/the-furnace" class="dropdown-item text-center text-lg-left">The Furnace</a>
+                                                    <a href="https://palacenova.com.au/films/the-war-with-grandpa" class="dropdown-item text-center text-lg-left">The War with Grandpa</a>
+                                                    <a href="https://palacenova.com.au/films/the-white-tiger" class="dropdown-item text-center text-lg-left">The White Tiger</a>
+                                                    <a href="https://palacenova.com.au/films/the-witches" class="dropdown-item text-center text-lg-left">The Witches</a>
+                                                    <a href="https://palacenova.com.au/films/wonder-woman-1984" class="dropdown-item text-center text-lg-left">Wonder Woman 1984</a>
+                             
+                        <div class="dropdown-divider"></div>
+
+                                   
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="nav_filmsDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Coming Soon <i class="fa fa-angle-down"></i>
+                    </a>
+                    <div class="dropdown-menu can-get-long" aria-labelledby="nav_filmsDropdown">
+                                                    <a href="https://palacenova.com.au/films/the-marksman" class="dropdown-item text-center text-lg-left">The Marksman</a>
+                                                    <a href="https://palacenova.com.au/films/dawn-raid" class="dropdown-item text-center text-lg-left">Dawn Raid</a>
+                                                    <a href="https://palacenova.com.au/films/met-opera-der-fliegende-hollander" class="dropdown-item text-center text-lg-left">Met Opera: Der Fliegende Holländer</a>
+                                                    <a href="https://palacenova.com.au/films/high-ground" class="dropdown-item text-center text-lg-left">High Ground</a>
+                                                    <a href="https://palacenova.com.au/films/occupation-rainfall" class="dropdown-item text-center text-lg-left">Occupation: Rainfall</a>
+                                                    <a href="https://palacenova.com.au/films/malcolm-and-marie" class="dropdown-item text-center text-lg-left">Malcolm and Marie</a>
+                                                    <a href="https://palacenova.com.au/films/news-of-the-world" class="dropdown-item text-center text-lg-left">News of the World</a>
+                                                    <a href="https://palacenova.com.au/films/pixie" class="dropdown-item text-center text-lg-left">Pixie</a>
+                                                    <a href="https://palacenova.com.au/films/art-on-screen-maverick-modigliani" class="dropdown-item text-center text-lg-left">Art on Screen - Maverick Modigliani</a>
+                                                    <a href="https://palacenova.com.au/films/wild-mountain-thyme" class="dropdown-item text-center text-lg-left">Wild Mountain Thyme</a>
+                                                    <a href="https://palacenova.com.au/films/the-nest" class="dropdown-item text-center text-lg-left">The Nest</a>
+                                                    <a href="https://palacenova.com.au/films/the-food-club" class="dropdown-item text-center text-lg-left">The Food Club</a>
+                                                    <a href="https://palacenova.com.au/films/la-scala-see-the-stars-again" class="dropdown-item text-center text-lg-left">La Scala: See the Stars Again</a>
+                                                    <a href="https://palacenova.com.au/films/long-story-short" class="dropdown-item text-center text-lg-left">Long Story Short</a>
+                                                    <a href="https://palacenova.com.au/films/escape-from-extinction" class="dropdown-item text-center text-lg-left">Escape from Extinction</a>
+                                                    <a href="https://palacenova.com.au/films/another-round" class="dropdown-item text-center text-lg-left">Another Round</a>
+                                                    <a href="https://palacenova.com.au/films/nobody" class="dropdown-item text-center text-lg-left">Nobody</a>
+                                                    <a href="https://palacenova.com.au/films/minari" class="dropdown-item text-center text-lg-left">Minari</a>
+                                                    <a href="https://palacenova.com.au/films/firestarter" class="dropdown-item text-center text-lg-left">Firestarter</a>
+                                                    <a href="https://palacenova.com.au/films/blackbird" class="dropdown-item text-center text-lg-left">Blackbird</a>
+                                                    <a href="https://palacenova.com.au/films/the-kings-man" class="dropdown-item text-center text-lg-left">The King&#039;s Man</a>
+                                                    <a href="https://palacenova.com.au/films/nt-live-encore-war-horse" class="dropdown-item text-center text-lg-left">NT Live (Encore): War Horse</a>
+                                                    <a href="https://palacenova.com.au/films/about-endlessness" class="dropdown-item text-center text-lg-left">About Endlessness</a>
+                                                    <a href="https://palacenova.com.au/films/six-minutes-to-midnight" class="dropdown-item text-center text-lg-left">Six Minutes to Midnight</a>
+                                                    <a href="https://palacenova.com.au/films/girls-cant-surf" class="dropdown-item text-center text-lg-left">Girls Can&#039;t Surf</a>
+                                                    <a href="https://palacenova.com.au/films/peter-rabbit-2" class="dropdown-item text-center text-lg-left">Peter Rabbit 2</a>
+                                                    <a href="https://palacenova.com.au/films/met-opera-encore-le-nozze-di-figaro" class="dropdown-item text-center text-lg-left">Met Opera Encore: Le Nozze Di Figaro</a>
+                                                    <a href="https://palacenova.com.au/films/exhibition-on-screen-easter-in-art" class="dropdown-item text-center text-lg-left">Exhibition on Screen: Easter in Art</a>
+                                                    <a href="https://palacenova.com.au/films/the-boss-baby-2-family-business" class="dropdown-item text-center text-lg-left">The Boss Baby 2: Family Business</a>
+                                                    <a href="https://palacenova.com.au/films/the-father" class="dropdown-item text-center text-lg-left">The Father</a>
+                                                    <a href="https://palacenova.com.au/films/no-time-to-die" class="dropdown-item text-center text-lg-left">No Time to Die</a>
+                                                    <a href="https://palacenova.com.au/films/a-quiet-place-part-ii" class="dropdown-item text-center text-lg-left">A Quiet Place Part II</a>
+                                                    <a href="https://palacenova.com.au/films/black-widow" class="dropdown-item text-center text-lg-left">Black Widow</a>
+                                                    <a href="https://palacenova.com.au/films/nt-live-encore-a-view-from-the-bridge" class="dropdown-item text-center text-lg-left">NT Live (Encore): A View From The Bridge</a>
+                                                    <a href="https://palacenova.com.au/films/met-opera-encore-cavalleria-rusticanapagliacci" class="dropdown-item text-center text-lg-left">Met Opera Encore: Cavalleria Rusticana/Pagliacci</a>
+                                                    <a href="https://palacenova.com.au/films/art-on-screen-botticelli-florence-the-medici" class="dropdown-item text-center text-lg-left">Art on Screen - Botticelli, Florence &amp; the Medici</a>
+                                                    <a href="https://palacenova.com.au/films/exhibition-on-screen-sunflowers" class="dropdown-item text-center text-lg-left">Exhibition on Screen: Sunflowers</a>
+                                                    <a href="https://palacenova.com.au/films/met-opera-encore-the-magic-flute" class="dropdown-item text-center text-lg-left">Met Opera Encore: The Magic Flute</a>
+                                                    <a href="https://palacenova.com.au/films/art-on-screen-raphael-the-young-prodigy" class="dropdown-item text-center text-lg-left">Art on Screen - Raphael: The Young Prodigy</a>
+                                                    <a href="https://palacenova.com.au/films/nt-live-encore-no-mans-land" class="dropdown-item text-center text-lg-left">NT Live (Encore): No Man&#039;s Land</a>
+                                                    <a href="https://palacenova.com.au/films/exhibition-on-screen-leonardo-the-works" class="dropdown-item text-center text-lg-left">Exhibition on Screen: Leonardo The Works</a>
+                                                    <a href="https://palacenova.com.au/films/met-opera-encore-don-pasquale" class="dropdown-item text-center text-lg-left">Met Opera Encore: Don Pasquale</a>
+                                                    <a href="https://palacenova.com.au/films/art-on-screen-pompeii-sin-city" class="dropdown-item text-center text-lg-left">Art on Screen - Pompeii: Sin City</a>
+                                                    <a href="https://palacenova.com.au/films/exhibition-on-screen-cezanne-portraits-of-a-life" class="dropdown-item text-center text-lg-left">Exhibition on Screen: Cezanne: Portraits Of A Life</a>
+                                                    <a href="https://palacenova.com.au/films/met-opera-encore-rigoletto" class="dropdown-item text-center text-lg-left">Met Opera Encore: Rigoletto</a>
+                                                    <a href="https://palacenova.com.au/films/art-on-screen-munch-love-phantomslady-vampires" class="dropdown-item text-center text-lg-left">Art on Screen - Munch: Love Phantoms&amp;Lady Vampires</a>
+                                                    <a href="https://palacenova.com.au/films/exhibition-on-screen-lucian-freud" class="dropdown-item text-center text-lg-left">Exhibition on Screen: Lucian Freud</a>
+                                                    <a href="https://palacenova.com.au/films/art-on-screen-tutankhamun-the-last-exhibition" class="dropdown-item text-center text-lg-left">Art on Screen - Tutankhamun: The Last Exhibition</a>
+                                                    <a href="https://palacenova.com.au/films/morbius" class="dropdown-item text-center text-lg-left">Morbius</a>
+                                                    <a href="https://palacenova.com.au/films/free-guy" class="dropdown-item text-center text-lg-left">Free Guy</a>
+                                                    <a href="https://palacenova.com.au/films/the-355" class="dropdown-item text-center text-lg-left">The 355</a>
+                                                
+                        <div class="dropdown-divider"></div>
+
+                                                    <a href="https://palacenova.com.au/events/girlfriends-getaway" class="dropdown-item text-center text-lg-left">Girlfriend&#039;s Getaway</a>
+                                                    <a href="https://palacenova.com.au/events/monday-doubles" class="dropdown-item text-center text-lg-left">Monday Doubles</a>
+                                   
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="nav_festivalsAndEvents" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Festivals & Events <i class="fa fa-angle-down"></i>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="nav_festivalsAndEvents">
+                        <span class="text-uppercase px-4 d-block text-primary mb-1 font-weight-bold text-center text-md-left">Stage to screen</span>
+                                                                            <a href="https://palacenova.com.au/events/art-on-screen" class="dropdown-item text-center text-lg-left">Art on Screen</a>
+                                                                                                    <a href="https://palacenova.com.au/events/met-opera" class="dropdown-item text-center text-lg-left">Met Opera</a>
+                                                                                                    <a href="https://palacenova.com.au/events/music-on-screen" class="dropdown-item text-center text-lg-left">Music On Screen</a>
+                                                                                                    <a href="https://palacenova.com.au/events/national-theatre-live" class="dropdown-item text-center text-lg-left">National Theatre Live</a>
+                                                                                                    <a href="https://palacenova.com.au/events/palace-opera-ballet" class="dropdown-item text-center text-lg-left">Palace Opera &amp; Ballet</a>
+                                                                                                                        
+                        <div class="dropdown-divider"></div>
+                        
+                        <span class="text-uppercase px-4 d-block text-primary mb-1 font-weight-bold text-center text-md-left">Film Festivals</span>
+                                                <div class="dropdown-divider"></div>
+
+                        <span class="text-uppercase px-4 d-block text-primary mb-1 font-weight-bold text-center text-md-left">Events</span>
+                                                    <a href="https://palacenova.com.au/special-events-category/special-events-music" class="dropdown-item text-center text-lg-left">Special Events - Music</a>
+                                                    <a href="https://palacenova.com.au/special-events-category/filmmaker-q-a-sessions" class="dropdown-item text-center text-lg-left">Filmmaker Q &amp; A Sessions</a>
+                                                    <a href="https://palacenova.com.au/special-events-category/special-events-film" class="dropdown-item text-center text-lg-left">Special Events - Film</a>
+                                                    <a href="https://palacenova.com.au/special-events-category/school-holidays-at-prospect" class="dropdown-item text-center text-lg-left">School Holidays at Prospect</a>
+                                                    <a href="https://palacenova.com.au/special-events-category/girlfriends-getaway-at-prospect" class="dropdown-item text-center text-lg-left">Girlfriends&#039; Getaway at Prospect</a>
+                             
+                        <a href="https://palacenova.com.au/special-events" class="dropdown-item text-center text-lg-left text-uppercase">All Events</a>
+                    </div>
+                </li>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="nav_functions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Functions <i class="fa fa-angle-down"></i>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="nav_functions">
+                                                    <a href="https://palacenova.com.au/group-bookings" class="dropdown-item text-center text-lg-left">Group Bookings</a>
+                                                    <a href="https://palacenova.com.au/school-group-bookings" class="dropdown-item text-center text-lg-left">School Group Bookings</a>
+                                                    <a href="https://palacenova.com.au/private-" class="dropdown-item text-center text-lg-left">Private Screenings</a>
+                                                    <a href="https://palacenova.com.au/big-picture-gaming" class="dropdown-item text-center text-lg-left">Big Picture Gaming</a>
+                                                    <a href="https://palacenova.com.au/venue-hire" class="dropdown-item text-center text-lg-left">Venue Hire</a>
+                                                    <a href="https://palacenova.com.au/fundraising" class="dropdown-item text-center text-lg-left">Fundraising</a>
+                                                    <a href="https://palacenova.com.au/movie-birthday-parties-at-prospect" class="dropdown-item text-center text-lg-left">Movie Birthday Parties</a>
+                                            </div>
+                </li>
+               
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="nav_shop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Pricing & Loyalty <i class="fa fa-angle-down"></i>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="nav_shop">
+                        <a href="https://palacenova.com.au/loyalty/new-pricing" class="dropdown-item text-center text-lg-left">Pricing</a>
+                        <a href="https://palacenova.com.au/loyalty/benefits" class="dropdown-item text-center text-lg-left">Benefits</a>
+                        <a href="https://palacenova.com.au/loyalty/join" class="dropdown-item text-center text-lg-left">Join</a>
+                        <a href="https://ticketing.palacenova.com.au/browsing/Loyalty/SignIn" class="dropdown-item text-center text-lg-left">Sign In</a>
+                        <a href="https://palacenova.com.au/loyalty/lumiere-dollars" class="dropdown-item text-center text-lg-left">Lumière Dollars</a>
+                        <a href="https://palacenova.com.au/loyalty/faqs" class="dropdown-item text-center text-lg-left">FAQs</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://palacenova.com.au/gift-vouchers" id="nav_shop">
+                        Gift Cards
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="nav_about" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Other <i class="fa fa-angle-down"></i>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="nav_about">
+                                                    <a href="https://palacenova.com.au/about-us" class="dropdown-item text-center text-lg-left">About Us</a>
+                                                    <a href="https://palacenova.com.au/our-story" class="dropdown-item text-center text-lg-left">Our Story</a>
+                                                    <a href="https://palacenova.com.au/pre-show-entertainer-package" class="dropdown-item text-center text-lg-left">Pre-Show Entertainer Package</a>
+                                                    <a href="https://palacenova.com.au/access-and-inclusion" class="dropdown-item text-center text-lg-left">Access &amp; Inclusion</a>
+                                                    <a href="https://palacenova.com.au/contact-us" class="dropdown-item text-center text-lg-left">Contact Us</a>
+                                                    <a href="https://palacenova.com.au/media-partnerships" class="dropdown-item text-center text-lg-left">Media &amp; Partnerships</a>
+                                                <div class="dropdown-divider"></div>
+                        <a href="https://palacenova.com.au/faq" class="dropdown-item text-center text-lg-left">FAQs</a>
+                        <a href="https://palacenova.com.au/feedback" class="dropdown-item text-center text-lg-left">Feedback</a>
+                    </div>
+                </li>
+                <li class="nav-item">                    
+                    <a href="https://ticketing.palacenova.com.au/browsing/Loyalty/SignIn" class="nav-link text-primary">Login</a>
+                </li>
+            </ul>
+
+            <div class="mx-auto d-block d-lg-none text-center h4 mt-4">
+                <a target="_blank" class="text-white" href="https://www.facebook.com/PalaceNova"><i class="fa fa-facebook-square"></i></a>
+                <a target="_blank" class="ml-2 text-white" href="https://www.instagram.com/palacenova"><i class="fa fa-instagram"></i></a>
+                <a target="_blank" class="ml-2 text-white" href="https://www.twitter.com/palacenova"><i class="fa fa-twitter"></i></a>
+            </div>
+        </div>           
+    </div>
+</nav>         
+    
+        <div id="headerCarousel" class="carousel slide d-none d-md-block" data-ride="false" data-interval="3000">
+    <div class="carousel-inner" role="listbox">
+                
+                    <div class="carousel-item  active ">
+                <div class="carousel-item-bg" style="background-image: url(/media/FilmBanners/DirtyDancing_landscape_web.jpg)"></div>
+                <div class="carousel-item-info ml-md-auto justify-content-center d-flex flex-column px-3 px-sm-0 pl-sm-5">
+                    <div class="movie-details pr-0 pr-sm-3">
+                        <div class="container">
+                            <h1><a href="https://palacenova.com.au/special-events/girlfriends-getaway-dirty-dancing">Girlfriends Getaway: Dirty Dancing</a></h1>
+                            <p class="d-none d-md-block mb-3">Nobody puts baby in a corner! Have the time of your life and a drink on arrival January 20!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                                <div class="carousel-item ">
+                <div class="carousel-item-bg" style="background-image: url(/media/FilmBanners/PNCMondayDoubles-AkiraYourName_landscape_web.jpg)"></div>
+                <div class="carousel-item-info ml-md-auto justify-content-center d-flex flex-column px-3 px-sm-0 pl-sm-5">
+                    <div class="movie-details pr-0 pr-sm-3">
+                        <div class="container">
+                            <h1><a href="https://palacenova.com.au/special-events/monday-doubles-akira-in-4k-your-name-jan-18">Monday Doubles: Akira [in 4K] + Your Name (JAN 18)</a></h1>
+                            <p class="d-none d-md-block mb-3">Two of the biggest anime films ever for only $15 - Katsuhiro Otomo’s ground-breaking anime classic, Akira, in glorious 4K. Plus, the Japanese blockbuster Your Name (JAN 18).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                                <div class="carousel-item ">
+                <div class="carousel-item-bg" style="background-image: url(/media/FilmBanners/Ottolenghi2_landscape_web.jpg)"></div>
+                <div class="carousel-item-info ml-md-auto justify-content-center d-flex flex-column px-3 px-sm-0 pl-sm-5">
+                    <div class="movie-details pr-0 pr-sm-3">
+                        <div class="container">
+                            <h1><a href="https://palacenova.com.au/special-events/special-high-tea-event-sunday-january-17">Special High Tea Event, Sunday January 17</a></h1>
+                            <p class="d-none d-md-block mb-3">Free cake and coffee or tea on arrival for all ticketholders of select sessions of Ottolenghi and the Cakes of Versailles on Sunday January 17.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                                <div class="carousel-item ">
+                <div class="carousel-item-bg" style="background-image: url(/media/FilmBanners/PenguinBloom_landscape_web.jpg)"></div>
+                <div class="carousel-item-info ml-md-auto justify-content-center d-flex flex-column px-3 px-sm-0 pl-sm-5">
+                    <div class="movie-details pr-0 pr-sm-3">
+                        <div class="container">
+                            <h1><a href="https://palacenova.com.au/special-events/advance-session-live-virtual-qamp-a-with-naomi-watts-amp-more-at-palace-nova-prospect">Advance session + post-film Q&amp;A with Naomi Watts &amp; more at Palace Nova Prospect</a></h1>
+                            <p class="d-none d-md-block mb-3">Penguin Bloom - Advance session + post-film Q&amp;A with Naomi Watts &amp; more, Wednesday January 20 at Prospect</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    
+        
+                    <div class="carousel-item ">
+                <div class="carousel-item-bg" style="background-image: url(/media/FilmBanners/LupinTheThirdTheFirst_landscape_web.jpg)"></div>
+                <div class="carousel-item-info ml-md-auto justify-content-center d-flex flex-column px-3 px-sm-0 pl-sm-5">
+                    
+                    <div class="movie-details pr-0 pr-sm-3">
+                        <div class="container">
+                            <h1><a href="https://palacenova.com.au/films/lupin-the-third-the-first?location=eastend">Lupin the Third: The First</a></h1>
+                            <p class="d-none d-md-block">Lupin the Third: The First | The iconic “gentleman thief” Lupin III returns in an action-packed, continent-spanning adventure.</p>
+                                                            <div class="sessions d-block mb-4">
+                                    <div class="d-table">
+                                        <span class="d-table-cell pr-3">Eastend Today:</span> 
+                                        <span class="d-table-cell ">
+                                                                                            Not screening today
+                                                                                    </span>
+                                    </div>
+                                    <div class="d-table">
+                                        <span class="d-table-cell pr-3">Prospect Today:</span> 
+                                        <span class="d-table-cell ">
+                                                                                            Not screening today
+                                                                                    </span>
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+                    <div class="carousel-item ">
+                <div class="carousel-item-bg" style="background-image: url(/media/FilmBanners/Music_landscape_web.jpg)"></div>
+                <div class="carousel-item-info ml-md-auto justify-content-center d-flex flex-column px-3 px-sm-0 pl-sm-5">
+                    
+                    <div class="movie-details pr-0 pr-sm-3">
+                        <div class="container">
+                            <h1><a href="https://palacenova.com.au/films/music?location=eastend">Music</a></h1>
+                            <p class="d-none d-md-block">Music | The extraordinary feature film directorial debut by multi-Grammy nominee global popstar Sia.</p>
+                                                            <div class="sessions d-block mb-4">
+                                    <div class="d-table">
+                                        <span class="d-table-cell pr-3">Eastend Today:</span> 
+                                        <span class="d-table-cell ">
+                                                                                            Not screening today
+                                                                                    </span>
+                                    </div>
+                                    <div class="d-table">
+                                        <span class="d-table-cell pr-3">Prospect Today:</span> 
+                                        <span class="d-table-cell ">
+                                                                                                                                                <a href="//ticketing.palacenova.com.au/Ticketing/visSelectTickets.aspx?cinemacode=161&amp;txtSessionId=81427" class="session-time">20:00</a>
+                                                                                                                                    </span>
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+                    <div class="carousel-item ">
+                <div class="carousel-item-bg" style="background-image: url(/media/FilmBanners/PromisingYoungWoman_landscape_web.jpg)"></div>
+                <div class="carousel-item-info ml-md-auto justify-content-center d-flex flex-column px-3 px-sm-0 pl-sm-5">
+                    
+                    <div class="movie-details pr-0 pr-sm-3">
+                        <div class="container">
+                            <h1><a href="https://palacenova.com.au/films/promising-young-woman?location=eastend">Promising Young Woman</a></h1>
+                            <p class="d-none d-md-block">Promising Young Woman | Nothing in Cassie’s life is what it appears to be. She is living a secret double life and now, she is about to right the wrongs of the past.</p>
+                                                            <div class="sessions d-block mb-4">
+                                    <div class="d-table">
+                                        <span class="d-table-cell pr-3">Eastend Today:</span> 
+                                        <span class="d-table-cell ">
+                                                                                                                                                <a href="//ticketing.palacenova.com.au/Ticketing/visSelectTickets.aspx?cinemacode=160&amp;txtSessionId=110725" class="session-time secondary">18:30</a>
+                                                                                                                                    </span>
+                                    </div>
+                                    <div class="d-table">
+                                        <span class="d-table-cell pr-3">Prospect Today:</span> 
+                                        <span class="d-table-cell ">
+                                                                                                                                                <a href="//ticketing.palacenova.com.au/Ticketing/visSelectTickets.aspx?cinemacode=161&amp;txtSessionId=81432" class="session-time">19:50</a>
+                                                                                                                                    </span>
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+                    <div class="carousel-item ">
+                <div class="carousel-item-bg" style="background-image: url(/media/FilmBanners/TheDig_landscape_web.jpg)"></div>
+                <div class="carousel-item-info ml-md-auto justify-content-center d-flex flex-column px-3 px-sm-0 pl-sm-5">
+                    
+                    <div class="movie-details pr-0 pr-sm-3">
+                        <div class="container">
+                            <h1><a href="https://palacenova.com.au/films/the-dig?location=eastend">The Dig</a></h1>
+                            <p class="d-none d-md-block">The Dig | An excavator and his team discover a wooden ship from the Dark Ages while digging up a burial ground on a woman&#039;s estate.</p>
+                                                            <div class="sessions d-block mb-4">
+                                    <div class="d-table">
+                                        <span class="d-table-cell pr-3">Eastend Today:</span> 
+                                        <span class="d-table-cell ">
+                                                                                                                                                <a href="//ticketing.palacenova.com.au/Ticketing/visSelectTickets.aspx?cinemacode=160&amp;txtSessionId=110721" class="session-time secondary">18:20</a>
+                                                                                                                                    </span>
+                                    </div>
+                                    <div class="d-table">
+                                        <span class="d-table-cell pr-3">Prospect Today:</span> 
+                                        <span class="d-table-cell ">
+                                                                                                                                                <a href="//ticketing.palacenova.com.au/Ticketing/visSelectTickets.aspx?cinemacode=161&amp;txtSessionId=81466" class="session-time">19:40</a>
+                                                                                                                                    </span>
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+                    <div class="carousel-item ">
+                <div class="carousel-item-bg" style="background-image: url(/media/FilmBanners/WW84v2_landscape_web.jpg)"></div>
+                <div class="carousel-item-info ml-md-auto justify-content-center d-flex flex-column px-3 px-sm-0 pl-sm-5">
+                    
+                    <div class="movie-details pr-0 pr-sm-3">
+                        <div class="container">
+                            <h1><a href="https://palacenova.com.au/films/wonder-woman-1984?location=eastend">Wonder Woman 1984</a></h1>
+                            <p class="d-none d-md-block">Wonder Woman 1984 | Fast forward to the 1980s as Wonder Woman&#039;s next big screen adventure finds her facing two all-new foes: Max Lord and The Cheetah.</p>
+                                                            <div class="sessions d-block mb-4">
+                                    <div class="d-table">
+                                        <span class="d-table-cell pr-3">Eastend Today:</span> 
+                                        <span class="d-table-cell ">
+                                                                                                                                                <a href="//ticketing.palacenova.com.au/Ticketing/visSelectTickets.aspx?cinemacode=160&amp;txtSessionId=110691" class="session-time secondary">19:15</a>
+                                                                                                                                    </span>
+                                    </div>
+                                    <div class="d-table">
+                                        <span class="d-table-cell pr-3">Prospect Today:</span> 
+                                        <span class="d-table-cell ">
+                                                                                                                                                <a href="//ticketing.palacenova.com.au/Ticketing/visSelectTickets.aspx?cinemacode=161&amp;txtSessionId=81422" class="session-time">19:30</a>
+                                                                                                                                    </span>
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+        
+       
+    </div>    
+    <a class="carousel-control-prev" href="#headerCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true">
+            <i class="fa fa-angle-left"></i>
+            <span class="text-uppercase">Prev</span>
+        </span>
+    </a>
+    <a class="carousel-control-next" href="#headerCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true">
+            <span class="text-uppercase">Next</span>
+            <i class="fa fa-angle-right"></i>
+        </span>
+    </a>
+</div>
+    
+    
+<main class="wall-bg has-slider pt-2 pt-xs-5">
+    <div class="container pt-2">
+        <form id="homeFilters" class="movie-filters home-filters" method="POST" action="https://palacenova.com.au">
+    <input type="hidden" name="_token" value="qrPTgHyfOhSpGx23Zx8kHENTZNZmWidHOnIahMoq">
+    <input type="hidden" name="type" value="now_showing">
+    <h3 class="text-uppercase text-center mb-3 d-none">All Other Films</h3>
+    <div class="flex-column flex-md-row bottom-filters d-flex flex-wrap flex-md-nowrap justify-content-md-between  pt-5 pt-md-0 mt-4 mt-md-0">
+        <div class="d-flex">
+            <div class="col-6 d-md-inline-block pl-0">
+                <select name="day" id="week-day" class="wide mb-2 mb-md-0">
+                                            <option value="2021-01-17">Today</option>
+                                            <option value="2021-01-18">Monday</option>
+                                            <option value="2021-01-19">Tuesday</option>
+                                            <option value="2021-01-20">Wednesday</option>
+                                            <option value="2021-01-21">Thursday</option>
+                                            <option value="2021-01-22">Friday</option>
+                                            <option value="2021-01-23">Saturday</option>
+                                    </select>
+            </div>
+            <div class="col-6 d-md-inline-block pr-0">
+                <select name="location" id="cinema-location-homepage" class="wide mb-2 mb-md-0">
+                    <option value=""  selected >Location</option>
+                    <option value="prospect" >Prospect</option>
+                    <option value="eastend" >Eastend</option>
+                </select>
+            </div>            
+        </div>
+        <div class="top-filters d-flex flex-row justify-content-between no-gutters ml-md-3">
+            <a rel="now_showing" class="text-center d-flex d-md-inline-block main-filter mr-3 active">Now Showing</a>
+        <a rel="coming_soon" class="text-center d-flex d-md-inline-block main-filter mr-3">Coming Soon</a>
+                            <a id="specialBtn" class="text-center d-flex d-md-inline-block main-filter specialBtn" href="https://palacenova.com.au/media/eNewsSessions/PNC_Sessions.pdf">Print Session Times</a>  
+                    </div>
+    </div>
+</form>      
+
+
+
+        <div class="movies-grid clearfix mt-5">
+                <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/akira-your-name?location=eastend" class="poster" style="background-image:url(/media/movie-posters/PNCMondayDoubles-AkiraYourName_poster_digital.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">M
+                </span>
+                                Akira + Your Name | Two great movies for only $15
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/ammonite?location=eastend" class="poster" style="background-image:url(/media/movie-posters/ammonite.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">MA15
+                </span>
+                                Ammonite | A palaeontology pioneer and a young woman sent to convalesce by the sea, in an absorbing romantic drama set in 1840s England.
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/dirty-dancing?location=eastend" class="poster" style="background-image:url(/media/movie-posters/DirtyDancing_poster_EDM.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">M
+                </span>
+                                Dirty Dancing | A young girl (Grey) vacationing with her parents in the conservative Catskills falls for the hotel&#039;s maverick dance instructor (Swayze)
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/lupin-the-third-the-first?location=eastend" class="poster" style="background-image:url(/media/movie-posters/lupin-the-third-the-first.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">M
+                </span>
+                                Lupin the Third: The First | The iconic “gentleman thief” Lupin III returns in an action-packed, continent-spanning adventure.
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/music?location=eastend" class="poster" style="background-image:url(/media/movie-posters/Music-v3_poster_EDM.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">M
+                </span>
+                                Music | The extraordinary feature film directorial debut by multi-Grammy nominee global popstar Sia.
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/my-salinger-year?location=eastend" class="poster" style="background-image:url(/media/movie-posters/MySalingerYear_poster_EDM.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">M
+                </span>
+                                My Salinger Year | A college grad takes a clerical job working for the literary agent of the renowned, reclusive writer J.D. Salinger.
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/only-the-animals?location=eastend" class="poster" style="background-image:url(/media/movie-posters/only-the-animals.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">M
+                </span>
+                                Only the Animals | A local woman who has been murdered after going missing during a snowstorm.
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/ottolenghi-and-the-cakes-of-versailles?location=eastend" class="poster" style="background-image:url(/media/movie-posters/ottolenghi-and-the-cakes-of-versailles.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">G
+                </span>
+                                Ottolenghi and the Cakes of Versailles | Documenting the collaboration between world renowned chef Yotam Ottolenghi (Plenty, Simple) and the Metropolitan Museum of Art.
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/penguin-bloom?location=eastend" class="poster" style="background-image:url(/media/movie-posters/penguin-bloom.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">PG
+                </span>
+                                Penguin Bloom | The true story of Sam Bloom (Naomi Watts) a young mother whose world is turned upside down after a near-fatal accident leaves her unable to walk.
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/promising-young-woman?location=eastend" class="poster" style="background-image:url(/media/movie-posters/PromisingYoungWoman_poster_digital.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">MA15
+                </span>
+                                Promising Young Woman | Nothing in Cassie’s life is what it appears to be. She is living a secret double life and now, she is about to right the wrongs of the past.
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/shadow-in-the-cloud?location=eastend" class="poster" style="background-image:url(/media/movie-posters/shadow-in-the-cloud.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">MA15
+                </span>
+                                Shadow in the Cloud | In the throes of World War II, Captain Maude Garrett joins the all-male crew of a B-17 bomber with a top-secret package. 
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/the-dig?location=eastend" class="poster" style="background-image:url(/media/movie-posters/the-dig.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">PG
+                </span>
+                                The Dig | An excavator and his team discover a wooden ship from the Dark Ages while digging up a burial ground on a woman&#039;s estate.
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/the-dry?location=eastend" class="poster" style="background-image:url(/media/movie-posters/the-dry.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">MA15
+                </span>
+                                The Dry | After being away for over 20 years, a federal agent returns to attend the funeral of his childhood friend, who allegedly murdered his wife and child.
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/the-elfkins-baking-a-difference?location=eastend" class="poster" style="background-image:url(/media/movie-posters/the-elfkins-baking-a-difference.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">G
+                </span>
+                                The Elfkins: Baking A Difference | The famous, hard-working Elfkins of Cologne finally return!
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/the-white-tiger?location=eastend" class="poster" style="background-image:url(/media/movie-posters/WhiteTigerv2_poster_EDM.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">MA15
+                </span>
+                                The White Tiger | The epic journey of a poor Indian driver who must use his wit and cunning to break free from servitude to his rich masters and rise to the top. 
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/wonder-woman-1984?location=eastend" class="poster" style="background-image:url(/media/movie-posters/WonderWoman1984_poster_EDM.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">M
+                </span>
+                                Wonder Woman 1984 | Fast forward to the 1980s as Wonder Woman&#039;s next big screen adventure finds her facing two all-new foes: Max Lord and The Cheetah.
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/buddy-games?location=eastend" class="poster" style="background-image:url(/media/movie-posters/buddy-games.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">MA15
+                </span>
+                                Buddy Games | Friends reunite to play a wild assortment of absurd physical and mental challenges. In the process, they&#039;ll heal old wounds, right past wrongs.
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/dreambuilders?location=eastend" class="poster" style="background-image:url(/media/movie-posters/dreambuilders.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">PG
+                </span>
+                                Dreambuilders | 12-year-old Minna must adapt to the arrival of a new stepsister, Jenny. Minna discovers the dreambuilders, who construct and control people’s dreams.
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/how-to-be-a-good-wife?location=eastend" class="poster" style="background-image:url(/media/movie-posters/how-to-be-a-good-wife.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">M
+                </span>
+                                How to Be a Good Wife | Paulette discovers that the school she has been running for over two decades is on the verge of financial ruin.
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/maya-the-bee-3-the-golden-orb?location=eastend" class="poster" style="background-image:url(/media/movie-posters/MayaTheBee3_poster_digital.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">G
+                </span>
+                                Maya the Bee 3 - The Golden Orb | Maya must learn that trust is not just a word, it has to be earned!
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/memories-of-murder?location=eastend" class="poster" style="background-image:url(/media/movie-posters/memories-of-murder.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">MA15
+                </span>
+                                Memories of Murder | In a small Korean province in 1986, two detectives struggle with the case of multiple young women being found raped and murdered by an unknown man.
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/rams?location=eastend" class="poster" style="background-image:url(/media/movie-posters/Rams_poster_web.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">PG
+                </span>
+                                Rams | Brothers Colin and Les have been fighting for decades. Both are award-winning sheep farmers but when disaster strikes and disease threatens their flocks.
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/spread-your-wings?location=eastend" class="poster" style="background-image:url(/media/movie-posters/spread-your-wings.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">PG
+                </span>
+                                Spread Your Wings | Father and son will come closer around a crazy project: to save an endangered species.
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/summerland?location=eastend" class="poster" style="background-image:url(/media/movie-posters/summerland.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">PG
+                </span>
+                                Summerland | A young woman revisits her past when she opens her heart to a young evacuee in SUMMERLAND, a wartime drama with a contemporary sensibility.
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/the-croods-a-new-age?location=eastend" class="poster" style="background-image:url(/media/movie-posters/the-croods-a-new-age.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">PG
+                </span>
+                                The Croods: A New Age | The Croods have survived their fair share of dangers and disasters, from fanged prehistoric beasts to surviving the end of the world, but now they
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/a-call-to-spy?location=eastend" class="poster" style="background-image:url(/media/movie-posters/a-call-to-spy.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">M
+                </span>
+                                A Call to Spy | A gripping historical drama inspired by true stories, A Call to Spy follows three unsung female WWII heroes who put their lives on the line.
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/corpus-christi?location=eastend" class="poster" style="background-image:url(/media/movie-posters/CorpusChristi_poster_web.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">MA15
+                </span>
+                                Corpus Christi | Jan Komasa&#039;s award-winning drama is a remarkable tale of morality and redemption about a charismatic ex-con who fooled a priest.
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/crock-of-gold-a-few-rounds-with-shane-macgowan?location=eastend" class="poster" style="background-image:url(/media/movie-posters/CrockofGold_poster_EDM.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">MA15
+                </span>
+                                Crock of Gold - A Few Rounds with Shane MacGowan | Filmmaker Julien Temple dives deep into the life of Shane MacGowan, the tortured vocalist  of the Pogues.
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/david-byrnes-american-utopia?location=eastend" class="poster" style="background-image:url(/media/movie-posters/david-byrnes-utopia.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">M
+                </span>
+                                David Byrne&#039;s American Utopia | Spike Lee documents the former Talking Heads frontman&#039;s brilliant, timely 2019 Broadway show, based on his recent album and tour.
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/dragon-rider?location=eastend" class="poster" style="background-image:url(/media/movie-posters/DragonRider_poster_EDM.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">PG
+                </span>
+                                Dragon Rider | Firedrake (Thomas Brodie Sangster), the young silver dragon, has had enough of constantly having to hide in a wooded valley... 
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/happiest-season?location=eastend" class="poster" style="background-image:url(/media/movie-posters/HappiestSeason_poster_digital.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">M
+                </span>
+                                Happiest Season | A holiday romantic comedy that captures the range of emotions tied to wanting your family&#039;s acceptance and trying not to ruin Christmas.
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/kajillionaire?location=eastend" class="poster" style="background-image:url(/media/movie-posters/kajillionaire.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">M
+                </span>
+                                Kajillionaire | A family of scam artists charm a stranger into joining their next scam, only to have their entire world turned upside down.
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/misbehaviour?location=eastend" class="poster" style="background-image:url(/media/movie-posters/misbehaviour.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">M
+                </span>
+                                Misbehaviour | The patriarchy is driven from the stage of the 1970 Miss World beauty contest and the Western ideal of beauty turned on its head.
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/monster-hunter?location=eastend" class="poster" style="background-image:url(/media/movie-posters/monster-hunter.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">M
+                </span>
+                                Monster Hunter | Based on the global video game phenomenon, behind our world, there is another: a world of dangerous and powerful monsters that rule with deadly force.
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/oliver-sacks-his-own-life?location=eastend" class="poster" style="background-image:url(/media/movie-posters/oliver-sacks-his-own-life.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">M
+                </span>
+                                Oliver Sacks: His Own Life | After receiving a fatal diagnosis, Oliver Sacks sat down for a series of interviews exporing his work as a neurologist and storyteller.
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/superintelligence?location=eastend" class="poster" style="background-image:url(/media/movie-posters/superintelligence.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">PG
+                </span>
+                                Superintelligence | When an all-powerful Superintelligence chooses to study average Carol Peters, the fate of the world hangs in the balance. 
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/tenet?location=eastend" class="poster" style="background-image:url(/media/movie-posters/tenet.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">M
+                </span>
+                                Tenet | Armed with only one word, Tenet, and fighting for the survival of the entire world, the Protagonist journeys through a twilight world of international espionage.
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/the-bee-gees-how-can-you-mend-a-broken-heart?location=eastend" class="poster" style="background-image:url(/media/movie-posters/BeeGees_poster_digital.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">M
+                </span>
+                                The Bee Gees: How Can You Mend A Broken Heart | An exploration into the underlying creativity behind the enduring phenomenon of the band. 
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/the-furnace?location=eastend" class="poster" style="background-image:url(/media/movie-posters/Furnace_poster_digital.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">MA15
+                </span>
+                                The Furnace | Set in the 1890s gold rush of Western Australia, THE FURNACE is an unlikely hero’s tale, navigating greed and the search for identity in a new land. 
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/the-war-with-grandpa?location=eastend" class="poster" style="background-image:url(/media/movie-posters/the-war-with-grandpa.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">PG
+                </span>
+                                The War with Grandpa | Upset that he has to share the room he loves with his grandfather, Peter decides to declare war in an attempt to get it back.
+            </div>
+            </div>
+</div>
+            <div class="movie mb-4 mb-xl-0">
+    <a href="https://palacenova.com.au/films/the-witches?location=eastend" class="poster" style="background-image:url(/media/movie-posters/the-witches.jpg)""></a>
+    <div class="movie-details  is-coming-soon ">
+                    <div class="d-block movie-hours pt-1">
+                <span class="d-inline-block rating text-uppercase mr-1 font-weight-bold">M
+                </span>
+                                The Witches | Reimagining Roald Dahl&#039;s beloved story for a modern audience 
+            </div>
+            </div>
+</div>
+    </div>
+<div class="d-none">
+            <span class="bannerDiv pb-3 mb-3 pb-md-5 mb-md-5 d-block">
+            <a href="https://palacenova.com.au/films/penguin-bloom" class="w100 d-block d-sm-none" target="_blank">
+                <img src="https://palacenova.com.au/media/HomeBanners/PenguinBloomQA2_banner_mobile.jpg">
+            </a>
+            <a href="https://palacenova.com.au/films/penguin-bloom" class="w100 d-none d-sm-block" target="_blank">
+                <img src="https://palacenova.com.au/media/HomeBanners/PenguinBloomQA2_banner_desktop.jpg">
+            </a>
+        </span>
+            <span class="bannerDiv pb-3 mb-3 pb-md-5 mb-md-5 d-block">
+            <a href="https://palacenova.com.au/special-events/" class="w100 d-block d-sm-none" target="_blank">
+                <img src="https://palacenova.com.au/media/HomeBanners/MondayDoubles-AkiraYourName_banner_mobile.jpg">
+            </a>
+            <a href="https://palacenova.com.au/special-events/" class="w100 d-none d-sm-block" target="_blank">
+                <img src="https://palacenova.com.au/media/HomeBanners/MondayDoubles-AkiraYourName_banner_desktop.jpg">
+            </a>
+        </span>
+            <span class="bannerDiv pb-3 mb-3 pb-md-5 mb-md-5 d-block">
+            <a href="https://palacenova.com.au/special-events/girlfriends-getaway-dirty-dancing" class="w100 d-block d-sm-none" target="_blank">
+                <img src="https://palacenova.com.au/media/HomeBanners/GirlfriendsGetaway-dirtydancing_banner_mobile.jpg">
+            </a>
+            <a href="https://palacenova.com.au/special-events/girlfriends-getaway-dirty-dancing" class="w100 d-none d-sm-block" target="_blank">
+                <img src="https://palacenova.com.au/media/HomeBanners/GirlfriendsGetaway-dirtydancing_banner_desktop.jpg">
+            </a>
+        </span>
+            <span class="bannerDiv pb-3 mb-3 pb-md-5 mb-md-5 d-block">
+            <a href="https://palacenova.com.au/movie-birthday-parties-at-prospect" class="w100 d-block d-sm-none" target="_blank">
+                <img src="https://palacenova.com.au/media/HomeBanners/KidsParties_webbanner_720x200.jpg">
+            </a>
+            <a href="https://palacenova.com.au/movie-birthday-parties-at-prospect" class="w100 d-none d-sm-block" target="_blank">
+                <img src="https://palacenova.com.au/media/HomeBanners/KidsParties_webbanner_1500x150.jpg">
+            </a>
+        </span>
+            <span class="bannerDiv pb-3 mb-3 pb-md-5 mb-md-5 d-block">
+            <a href="https://palacenova.com.au/sophisticated-and-safe-cinema" class="w100 d-block d-sm-none" target="_blank">
+                <img src="https://palacenova.com.au/media/HomeBanners/safe_banner_mobile.jpg">
+            </a>
+            <a href="https://palacenova.com.au/sophisticated-and-safe-cinema" class="w100 d-none d-sm-block" target="_blank">
+                <img src="https://palacenova.com.au/media/HomeBanners/safe_banner_desktop.jpg">
+            </a>
+        </span>
+    </div>
+        
+        <div class="container pt-4 my-4 subscribe clearfix">
+    <div class="row">
+        <div class="d-flex col-lg-6 club" style="background-image: url('/images/gift-voucher.jpg')">
+            <div class="d-flex flex-column justify-content-center pl-4 pr-2">
+                <h3>Gift <br>Vouchers</h3>
+                <span class="mt-2 mb-4">Check our great deals and save some money.</span>
+                <a href="https://palacenova.com.au/gift-vouchers" class="d-inline-block btn btn-lg btn-secondary">Find Out More</a>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center flex-column col-lg-6 pl-5 club" style="background-image: url('/images/stratton-recommends.jpg')">
+            <div class="d-flex flex-column justify-content-center pl-0 pl-md-4 pr-2">
+                <h3>David Stratton Recommends</h3>
+                <span class="mb-5">Weekly movie recommendations from David Stratton</span>
+                <a href="https://palacenova.com.au/david-stratton-recommends" class="d-inline-block btn btn-lg btn-primary">Check it out</a>
+            </div>
+        </div>
+    </div>
+</div>
+        
+        <div class="container pt-4 my-4 subscribe clearfix">
+    <div class="row">
+        <div class="d-flex justify-content-center flex-column col-lg-6 pl-4 pl-md-5 mailing">
+            <h3>Join our mailing list</h3>
+            <span class="mb-5">Get information delivered to your inbox weekly.</span>
+            <form id="subscribeForm" method="POST" action="https://palacenova.com.au/subscribe">
+                <input type="hidden" name="_token" value="qrPTgHyfOhSpGx23Zx8kHENTZNZmWidHOnIahMoq">
+                <div class="form-group mb-3">
+                    <input id="subscriber_first_name" type="text" class="form-control form-control-lg" name="first_name" placeholder="First Name">
+                    <small class="text-warning font-weight-bold first_name"></small>
+                </div>
+                <div class="form-group mb-3">
+                    <input type="text" class="form-control form-control-lg" name="last_name" placeholder="Last Name">
+                </div>
+                <div class="form-group">
+                    <input id="subscriber_email" type="email" class="form-control form-control-lg" name="email" placeholder="Email address">
+                    <small class="text-warning font-weight-bold email"></small>
+                </div>
+                <a id="showSubscribeCheckboxes" class="btn btn-lg btn-primary"><i class="fa fa-check"></i> Submit</a>
+                <div id="userInterests" class="d-none justify-content-center flex-column pl-4 pl-md-5">
+                    <h3 class="mb-4">I’m really into:</h3>
+
+                    <div class="form-group mb-2">
+                        <label class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" name="interests[]" value="romance_lyrics_emotional">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Romance / Lyrical / Emotional</span>
+                        </label>
+                    </div>
+                    <div class="form-group mb-2">
+                        <label class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" name="interests[]" value="action_adventure_escapism">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Action / Adventure / Escapism</span>
+                        </label>
+                    </div>
+                    <div class="form-group mb-2">
+                        <label class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" name="interests[]" value="arthouse_international_fests">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Arthouse/International/Fests</span>
+                        </label>
+                    </div>
+                    <div class="form-group mb-2">
+                        <label class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" name="interests[]" value="lifestyle_important_issues">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Lifestyle & Important Issues</span>
+                        </label>
+                    </div>
+                    <div class="form-group mb-2">
+                        <label class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" name="interests[]" value="stage_to_screen_museum_gallery">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Stage to Screen/Museum/Gallery</span>
+                        </label>
+                    </div>
+                    <div class="form-group mb-2">
+                        <label class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" name="interests[]" value="family">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Family</span>
+                        </label>
+                    </div>
+                    <small class="text-warning font-weight-bold no_interests"></small>
+                    <div class="d-inline-block">
+                        <button type="submit" class="btn btn-lg btn-primary"><i class="fa fa-check"></i> Subscribe</button>                        
+                    </div>
+                </div>
+            </form>
+
+            <div id="subscriptionSent">
+                <span class="doneIcon mb-5"><i class="fa fa-check"></i></span>
+                <h4>Your email has been saved</h4>
+            </div>
+        </div>
+        <div class="d-flex col-lg-6 club">
+            <div class="d-flex flex-column justify-content-center pl-4 pr-2">
+                <h3>Join the <br>movie club</h3>
+                <span class="mt-2 mb-4">Save on every session, every day at both Palace Nova Locations.</span>
+                <a href="https://palacenova.com.au/loyalty/new-pricing" class="d-inline-block btn btn-lg btn-secondary">Find Out More</a>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+</main>
+
+    
+    <footer class="py-5">
+    <div class="container">
+        <ul class="d-block d-md-inline-block text-center text-md-left">
+                        <li class="float-md-left mr-md-4"><a href="https://palacenova.com.au/faq">FAQs</a></li>
+            <li class="float-md-left mr-md-4"><a href="https://palacenova.com.au/loyalty/join">Loyalty</a></li>
+            <li class="float-md-left mr-md-4"><a href="https://palacenova.com.au/terms-of-use">Terms of Use</a></li>
+            <li class="float-md-left mr-md-4"><a href="https://palacenova.com.au/privacy-policy">Privacy Policy</a></li>
+            <li class="float-md-left mr-md-4"><a href="https://palacenova.com.au/contact-us">Contact</a></li>
+        </ul>
+        <span class="d-block d-md-inline-block float-md-right text-center text-md-left">
+            All content Copyright &copy; Palace Nova Cinemas           
+        </span>
+        <div class="mx-auto d-block text-center h4 mt-4">
+            <a target="_blank" class="text-white" href="https://www.facebook.com/PalaceNova"><i class="fa fa-facebook-square"></i></a>
+            <a target="_blank" class="ml-2 text-white" href="https://www.instagram.com/palacenova"><i class="fa fa-instagram"></i></a>
+            <a target="_blank" class="ml-2 text-white" href="https://www.twitter.com/palacenova"><i class="fa fa-twitter"></i></a>
+        </div>
+    </div>
+
+</footer>
+
+<noscript>
+    <style type="text/css">
+        footer,header,nav,.carousel,.row,.container {display:none!important;}
+    </style>
+    <div class="d-flex justify-content-center flex-column text-center my-5 py-5">
+      <h1>You don't have javascript enabled.</h1>  
+      <h3>Please enable it in order to navigate the website.</h3>
+    </div>
+</noscript>
+
+    <!-- Javascript files
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://palacenova.com.au/front-end/js/app.js"></script>
+    
+    </body>
+</html>
