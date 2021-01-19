@@ -1,19 +1,16 @@
-import { PrimaryKey, Property, SerializedPrimaryKey } from '@mikro-orm/core';
 import { ObjectId } from '@mikro-orm/mongodb';
 import moment from 'moment';
+import { Column, CreateDateColumn, ObjectIdColumn, PrimaryGeneratedColumn, UpdateDateColumn } from 'typeorm';
 
 export abstract class BaseEntity {
 
-  @PrimaryKey()
+  @ObjectIdColumn()
   _id!: ObjectId;
 
-  @SerializedPrimaryKey()
-  id!: string;
-
-  @Property()
+  @CreateDateColumn({type: 'date'})
   createdAt = moment();
 
-  @Property({ onUpdate: () => moment() })
+  @UpdateDateColumn({type: 'date'})
   updatedAt = moment();
 
 }

@@ -1,28 +1,28 @@
-import { Entity, Property } from "@mikro-orm/core";
 import { Moment } from "moment";
+import { Column, Entity } from "typeorm";
 import { BaseEntity } from "./BaseEntity";
 
 @Entity()
 export class Session extends BaseEntity {
 
-    @Property()
+    @Column()
     title!: string;
 
-    @Property({nullable: true})
+    @Column({nullable: true})
     poster_url!: string;
 
-    @Property()
+    @Column()
     location!: string;
 
-    @Property()
+    @Column()
     time!: Moment;
 
-    @Property({nullable: true})
+    @Column({nullable: true})
     imdb_id: string
 
-    @Property()
+    @Column()
     tags!: string[];
 
-    @Property()
+    @Column()
     booking_url!: string;
 }

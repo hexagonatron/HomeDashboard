@@ -1,0 +1,18 @@
+{
+    "type": "mongodb",
+    "host": "192.168.178.48",
+    "port": 27017,
+    "database": "movietimedb",
+    "useUnifiedTopology": true,
+    "synchronize": true,
+    "logging": true,
+    "entities": [
+       "src/entities/**/*.ts"
+    ],
+    "migrations": [
+       "src/migration/**/*.ts"
+    ],
+    "subscribers": [
+       "src/subscriber/**/*.ts"
+    ]
+ }
