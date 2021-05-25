@@ -1,7 +1,7 @@
 # [Movie Dashboard](https://movie.fawcett.xyz)
 ![License](https://img.shields.io/badge/Licence-MIT-blue)
 
-A movie dashboard app built using React/Typescript for the front end and NodeJS/Typescript + Mongodb for the backend.
+A movie dashboard app built using React/Typescript for the front end and NodeJS/Typescript + Mongodb for the backend. Currently a work in progress, but the deployed version is deployed at https://movie.fawcett.xyz . This app works by scraping various websites to get session times and store them in a database, the sesison times are then served by an api and displayed in a React frontend.
 
 ## Table of Contents 
 
