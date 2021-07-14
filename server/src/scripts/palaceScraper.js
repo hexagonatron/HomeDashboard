@@ -177,8 +177,7 @@ const parsePalaceHTML = async (rawHTML) => {
 
 const parseHoytsJson = async (json) => {
 
-    // const nowShowingContent = json.viewModel[1].contentTabs.tabs.find(tab => tab.slug === "now-showing");
-    const moviesShowing = json.flat();
+    const moviesShowing = json.map(dayJson => dayJson.tiles).flat();
 
     let movieSessionObjectArray = [];
 
