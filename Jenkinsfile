@@ -1,7 +1,15 @@
 pipeline {
     agent any
-    tools {nodejs "Node"}
     stages {
+        stage("Preflight") {
+            steps {
+                echo 'Node version'
+                sh 'node -v'
+                echo ''
+                echo 'NPM version'
+                sh 'npm -v'
+            }
+        }
         stage("Build") {
             steps {
                 echo 'Building Frontend'
