@@ -7,7 +7,7 @@
     "test": "jest",
     "tsc": "tsc",
     "dev": "ts-node-dev --respawn --transpileOnly ./app.ts",
-    "build": "tsc",
+    "build": "tsc -b --verbose",
     "start": "concurrently \"tsc -w\" \"nodemon dist/js/app.js\""
   },
   "author": "",
