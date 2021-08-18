@@ -13,9 +13,9 @@ pipeline {
         stage("Build") {
             steps {
                 echo 'Building Frontend'
-                sh 'cd client && npm run build'
+                sh 'cd client && npm ci && npm run build'
                 echo 'Compiling Backend'
-                sh 'cd server && npm run build'
+                sh 'cd server && npm ci && npm run build'
             }
         }
     }
