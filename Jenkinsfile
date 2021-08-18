@@ -1,13 +1,6 @@
 pipeline {
     agent any
-    tools {nodejs "latest"}
     stages {
-        stage("Preflight") {
-            steps {
-                echo sh(returnStdout: true, script: 'env')
-                sh 'node -v'
-            }
-        }
         stage("Build") {
             steps {
                 echo 'Building Frontend'
