@@ -27,8 +27,9 @@ pipeline {
             }
             steps {
                 echo "${env}"
+                echo sh(script: 'env', returnStdout: true)
                 echo 'Deploying branch to node server'
-                sh 'ssh jenkins@node.local < ~/deploybranch.sh ${env.BRANCH_NAME}'
+                sh 'ssh jenkins@node.local < ~/deploybranch.sh "${env.BRANCH_NAME}"'
             }
         }
     }
