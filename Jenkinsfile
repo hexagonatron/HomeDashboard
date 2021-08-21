@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage("Preflight") {
+        stage('Preflight') {
             steps {
                 echo 'Node version'
                 sh 'node -v'
@@ -9,10 +9,25 @@ pipeline {
                 sh 'npm -v'
             }
         }
-        stage("Build") {
+        stage('Build') {
             steps {
                 echo 'Building Application'
                 sh 'npm run build'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing application'
+                sh 'npm run test'
+            }
+        }
+        stage('Deploy Branch') {
+            when {
+                branch "feature/*"
+            }
+            steps {
+                echo 'Deploying branch to node server'
+                sh 'ssh jenkins@node.local < ~/deploybranch.sh ${env.BRANCH_NAME}'
             }
         }
     }
