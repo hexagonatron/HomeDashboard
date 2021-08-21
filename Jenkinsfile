@@ -29,7 +29,7 @@ pipeline {
                 echo "${env}"
                 echo sh(script: 'env', returnStdout: true)
                 echo 'Deploying branch to node server'
-                sh("ssh jenkins@node.local < ~/deploybranch.sh $BRANCH_NAME")
+                sh("ssh jenkins@node.local < /home/jenkins/deploybranch.sh $BRANCH_NAME")
             }
         }
     }
