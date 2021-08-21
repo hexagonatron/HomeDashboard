@@ -26,6 +26,7 @@ pipeline {
                 branch "feature/*"
             }
             steps {
+                echo env
                 echo 'Deploying branch to node server'
                 sh 'ssh jenkins@node.local < ~/deploybranch.sh ${env.BRANCH_NAME}'
             }
