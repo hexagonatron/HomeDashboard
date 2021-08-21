@@ -12,7 +12,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building Application'
-                sh 'npm run build'
+                // sh 'npm run build'
             }
         }
         stage('Test') {
@@ -26,7 +26,7 @@ pipeline {
                 branch "feature/*"
             }
             steps {
-                echo env
+                echo ${env}
                 echo 'Deploying branch to node server'
                 sh 'ssh jenkins@node.local < ~/deploybranch.sh ${env.BRANCH_NAME}'
             }
