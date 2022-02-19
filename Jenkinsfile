@@ -23,9 +23,11 @@ pipeline {
         }
         stage('Build Docker Image') {
             steps {
-                echo 'Building docker image'
-                BranchNameStripped = "${BRANCH_NAME}".replaceAll('_','')
-                docker.build("${JOB_NAME}:${branchNameStripped}")
+                script {
+                    echo 'Building docker image'
+                    def BRANCH_NAME_STRIPPED = "${BRANCH_NAME}".replaceAll('_','')
+                    docker.build("${JOB_NAME}:${BRANCH_NAMED_SCRIPT}")
+                }
             }
         }
         stage('Deploy Branch') {
