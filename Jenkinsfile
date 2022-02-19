@@ -23,7 +23,7 @@ pipeline {
         }
         stage('Build Docker Image') {
             environment {
-                DOCKER_TAG = $JOB_TAG 
+                DOCKER_TAG = "${JOB_TAG}" 
             }
             steps {
                 script {
