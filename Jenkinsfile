@@ -24,7 +24,7 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 echo 'Building docker image'
-                sh "docker build --tag $JOB_NAME_$BRANCH_NAME"
+                sh "docker build --tag ${JOB_NAME}_${BRANCH_NAME}"
             }
         }
         stage('Deploy Branch') {
