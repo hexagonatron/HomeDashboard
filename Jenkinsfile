@@ -24,7 +24,8 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 echo 'Building docker image'
-                sh "docker build --tag ${JOB_NAME}_${BRANCH_NAME}"
+                String branchNameStripped = "${BRANCH_NAME}".replaceAll('_','')
+                docker.build("${JOB_NAME}:${branchNameStripped}")
             }
         }
         stage('Deploy Branch') {
