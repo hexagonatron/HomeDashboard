@@ -25,7 +25,7 @@ pipeline {
             steps {
                 script {
                     echo 'Building docker image'
-                    def BRANCH_NAME_STRIPPED = "${BRANCH_NAME}".replaceAll('_','')
+                    def BRANCH_NAME_STRIPPED = $BRANCH_NAME.replaceAll("_","")
                     docker.build("${JOB_NAME}:${BRANCH_NAMED_SCRIPT}")
                 }
             }
