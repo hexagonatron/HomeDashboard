@@ -22,11 +22,14 @@ pipeline {
             }
         }
         stage('Build Docker Image') {
+            environment {
+                test = 'testbuild'
+            }
             steps {
                 script {
                     def job_tag = env.JOB_TAG
                     echo 'Building docker image'
-                    docker.build("${job_tag}")
+                    docker.build("${test}")
                 }
             }
         }
