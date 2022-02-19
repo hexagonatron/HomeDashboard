@@ -21,6 +21,12 @@ pipeline {
                 sh 'npm run test'
             }
         }
+        stage('Build Docker Image') {
+            steps {
+                echo 'Building docker image'
+                sh "docker build --tag $JOB_NAME_$BRANCH_NAME"
+            }
+        }
         stage('Deploy Branch') {
             when {
                 branch "feature/*"
@@ -28,8 +34,7 @@ pipeline {
             steps {
                 echo "${env}"
                 echo sh(script: 'env', returnStdout: true)
-                echo 'Deploying branch to node server'
-                sh("ssh jenkins@node.local /home/jenkins/deploybranch.sh $BRANCH_NAME")
+                echo 'Deploying branch to node server'         sh("ssh jenkins@node.local /home/jenkins/deploybranch.sh $BRANCH_NAME $GIT_URL")
             }
         }
     }
